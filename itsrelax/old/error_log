@@ -1,0 +1,2 @@
+[25-Apr-2016 15:18:27 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_bd2c1c521ca281e10cc61f3c073a55b5, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[25-Apr-2016 15:18:27 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0

@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>图片循环显示</title>
+<script language="javascript">
+var n = 1;
+function img1() {
+    if (n == 1) { myForm.imgflash.src = "images/Staff-1.jpg"; }
+    if (n == 2) { myForm.imgflash.src = "images/Staff-2.jpg"; }
+    if (n == 3) { myForm.imgflash.src = "images/Staff-3.jpg"; }
+    if (n == 4) {
+    myForm.imgflash.src = "images/Staff-4.jpg";
+    n = 0;
+  }
+  n++;
+}
+window.setInterval("img1()", 3000);
+</script>
+</head>
+<body>
+<form name="myForm">
+<img id="imgflash"/>
+</form>
+</body>
+</html>
